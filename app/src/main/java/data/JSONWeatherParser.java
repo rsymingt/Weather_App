@@ -1,5 +1,7 @@
 package data;
 
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -47,6 +49,14 @@ public class JSONWeatherParser {
             weather.currentCondition.setDescription(Utils.getString("description", jsonWeather));
             weather.currentCondition.setCondition(Utils.getString("main", jsonWeather));
             weather.currentCondition.setIcon(Utils.getString("icon", jsonWeather));
+
+            JSONObject jsonMain = Utils.getObject("main", jsonObject);
+
+            weather.currentCondition.setTemperature(Utils.getDouble("temp", jsonMain));
+            weather.currentCondition.setHumidity(Utils.getInt("humidity", jsonMain));
+            weather.currentCondition.setPressure(Utils.getInt("pressure", jsonMain));
+            weather.currentCondition.setMinTemp(Utils.getFloat("temp_min", jsonMain));
+            weather.currentCondition.setMaxTemp(Utils.getFloat("temp_max", jsonMain));
 
             JSONObject windObj = Utils.getObject("wind", jsonObject);
             weather.wind.setSpeed(Utils.getFloat("speed", windObj));

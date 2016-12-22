@@ -9,7 +9,7 @@ import org.json.JSONObject;
 
 public class Utils {
 
-    public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/wrather?q=";
+    public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
     public static final String ICON_URL = "http://openweathermap.org/img/w/";
 
     public static JSONObject getObject(String tagName, JSONObject jsonObject) throws JSONException {
@@ -26,7 +26,7 @@ public class Utils {
     }
 
     public static double getDouble(String tagName, JSONObject jsonObject) throws JSONException {
-        return (float) jsonObject.getDouble(tagName);
+        return (Double) jsonObject.getDouble(tagName);
     }
 
     public static int getInt(String tagName, JSONObject jsonObject) throws JSONException {
