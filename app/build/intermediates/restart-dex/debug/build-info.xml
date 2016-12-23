@@ -5,53 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14271022864142"
+    timestamp="2524354000913"
     token="1494316888527646140"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="62" />
+        duration="1501" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="184" />
     <task
         name="verifier"
-        duration="1" />
+        duration="10" />
 
     <artifact
-        location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
+        location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="11238104883524"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="53124140651002"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="13570608234517"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="14271022864142"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
+            location="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/builds/debug/53124140651002/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

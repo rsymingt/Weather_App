@@ -2039,9 +2039,30 @@
                     "startLine": 285,
                     "startColumn": 4,
                     "startOffset": 20752,
-                    "endLine": 287,
+                    "endLine": 286,
+                    "endColumn": 8,
+                    "endOffset": 20877
+                },
+                "from": {
+                    "file": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 20882,
+                    "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 20922
+                    "endOffset": 21052
                 },
                 "from": {
                     "file": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
@@ -2057,12 +2078,12 @@
             },
             {
                 "to": {
-                    "startLine": 288,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 20927,
-                    "endLine": 292,
+                    "startOffset": 21057,
+                    "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 21263
+                    "endOffset": 21393
                 },
                 "from": {
                     "file": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
@@ -2078,12 +2099,12 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 21268,
-                    "endLine": 295,
+                    "startOffset": 21398,
+                    "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 21461
+                    "endOffset": 21591
                 },
                 "from": {
                     "file": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/values-v21/values-v21.xml",

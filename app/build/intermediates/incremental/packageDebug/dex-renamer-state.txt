@@ -1,4 +1,4 @@
-#Thu Dec 22 01:27:18 EST 2016
+#Thu Dec 22 18:39:45 EST 2016
 base.0=/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6db011b096670ed7f5b0458b29f73c61c877faa6
 renamed.1=classes2.dex
 renamed.0=classes.dex

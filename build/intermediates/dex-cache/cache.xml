@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_f1c56027b783e43f0c629fe2bce7867e40dc4d3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_f5f9f34316b9786bdcb7de3a6d1dab4f64b78251/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_9e838de5b391ce1194b88e65be88dbd9f3038bb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -12,21 +39,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/ryan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_d887ffdeb07489997543e2e1337e773f82d4672b/classes.dex" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_c2b549080a36a83efde35b407b0d54197050181e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_d28148277376aed0066ba6d4ccc6ad3e74fb789a/classes.dex" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_832542e20eb1302db18b4cf5cb437ad6fdefcc7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_27cc13dc03501bcc410cd9b2187982524a2bdfbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_cd59e7684c67b17a95b5b39ea033461d8ee9f1c4/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,12 +84,327 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_68a5474a8b88d4a4e4d1b6d96fedd35f8eb12d20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_69e1afb2d3006910805e97004badf950ae4f9289/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_8db443b9bdd1ceaab895f485276bfdd4330c209b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_1f8e0f003b6a966f7bab5597915f3a20189a1599/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_1112539158a81228276c5169b29ab561fabd85d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_4882dd0a9841de67a6243fbf84750b35c75e027e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
         <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_068be2277492cf36d8d972960c8933a653108aa1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_aecef16161e23bce4d17479165e9a1c802e06085/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_63de5da00f299bc3adc425ed60d386ef53e3b6a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_5bf1bbc11f621e67f0996961c0363623ebe6132a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_64bf2d2383cf94f57765462712b2785091811f1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_21d7a8f60866b100d0bddad793386ec63a9fcecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_c0849f38c5d2595b3fd8fc6affa6d71f5a8b79fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_e0c262f3fbcb5d749e1a74258c369f1cb1de8368/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_f75244c433e3b5c9aced604dd458cb1d7f185126/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_8f480de9f33772559007852e77018c48a4307036/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_370890682f8f6fcde7ddf614e6940d5e43f04aea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_c5b6d30ac1bf2cdefe4f3eb1f49babbcdb652a98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_7a186f3a98b5a8fcf1ec1d17c0d2cc8f18e1c36c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_b61154f69c9c7d71a8bfefebd9d9ce84bd08bdf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_e14d1b6ddd8b8d86941ed8a05991c7216a0c407f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_510e62ef22eb2ed86d44ee917e4b7b9520223e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_5d1cb0ff6b7c613596a0bc7efbc87df2becb8ef2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_f87617813cf087eca6ea38819711bb08fdd121d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_6037bcfeffbc4af8d0b06c330fb749deb1c292a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_1ce97fba4ecb532d4f73bbc73dab032f14d094b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_9358d8b68eb990973d426f844a640bc9a97beda6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_d887ffdeb07489997543e2e1337e773f82d4672b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1db1b12d750190a0350c091d472cfa761b5706d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_c70f1277e881a4629e59122967dd3ca8d1e1e93a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_11d1f1b4862b450e9fac227b794df432848613f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_f7e6a6d13be74cfc59b5be9bdc94674101979c9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_d28148277376aed0066ba6d4ccc6ad3e74fb789a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_158d0121a86b2ccab8bddbcf31c0dd07bae15ddd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_fd42b4c9916a88077614bcbbe3787fc89b564916/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_9a6bee62c617f34606e72b99dc00582a741db646/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,6 +426,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_38c8dff0322e2d9e48a82997844ccbc478c21168/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_d65c4269e1f188c00aa0f017fb07899a6b4693e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_2b9435ab25fd71ced3c274cabe63073ce01b09d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -81,15 +468,6 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_8ab36ed34335bda30d065e2678ca569673ba6fe8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_21d7a8f60866b100d0bddad793386ec63a9fcecc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,12 +489,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_90299c5c0b57d0eec69ec00a465fe178a2701211/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_0995dca526c14a38d2503c01ba9f8d5f4f5b65b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c45da4f756ec7ee740d2b23db629366491a4307c">
+        sha1="38343b9a5660500530dbfe91b6591535b164ff34">
         <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e3bfda29871375f08efa1cbafc644212407af782/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_a5fd9b8aab78432b19e304695415ed9cbb84ef4d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -124,8 +529,53 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4334057a6e3de3124cdda3ab884b872403e25bdb">
+        sha1="1df6789cefff45eab3da7e52c9db97ec09c2b509">
         <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6db011b096670ed7f5b0458b29f73c61c877faa6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_9179aae834015bcf12c82f5fe9f0bfcbbc08fcb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_187a92bc92fa928453bdc81a8d756f7edf09c91f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_5388eb7b461c6eedd9a3841eb1767a0c2da358b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_e7cdedd60f4dae670245d84bdd420db37dc589c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_7e84f854f6e427ca2c8aa86414f765930622f69d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -135,6 +585,15 @@
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_e0892676b6bbcc3bebb1e2b3755207634770cdb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_4173c319510d929c0559a34becfd065d1508717f/classes.dex" />
     </item>
 
 </items>

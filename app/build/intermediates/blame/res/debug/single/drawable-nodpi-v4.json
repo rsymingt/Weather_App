@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder.png",
+        "source": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/drawable-nodpi-v4/cast_album_art_placeholder.png"
+    },
+    {
+        "merged": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder_large.png",
+        "source": "/home/ryan/AndroidStudioProjects/Weather_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/drawable-nodpi-v4/cast_album_art_placeholder_large.png"
+    }
+]

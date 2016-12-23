@@ -1,6 +1,7 @@
 package com.example.rsymi.myapplication;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Icon;
@@ -33,6 +34,7 @@ import java.net.URLConnection;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.util.Date;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import data.CityPreferences;
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView updated;
     private Button btnUpdate;
     private TextView updatingText;
+    private Button btnMap;
 
     private Weather weather = new Weather();
 
@@ -109,6 +112,15 @@ public class MainActivity extends AppCompatActivity {
 
 
                 updatingText.startAnimation(fadeUpdate);
+            }
+        });
+
+        btnMap = (Button) findViewById(R.id.map);
+
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(getApplicationContext(), MapsActivity.class));
             }
         });
 
@@ -246,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
