@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.Icon;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
@@ -64,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -192,12 +197,17 @@ public class MainActivity extends AppCompatActivity {
     private class WeatherTask extends AsyncTask<String, Void, Weather> {
         @Override
         protected Weather doInBackground(String... params) {
+            try {
+                String data = ((new WeatherHttpClient()).getWeatherData(params[0]));
 
-            String data = ((new WeatherHttpClient()).getWeatherData(params[0]));
+                weather = JSONWeatherParser.getWeather(data);
 
-            weather = JSONWeatherParser.getWeather(data);
+                return weather;
+            }catch (Exception e){
+                e.printStackTrace();
+                return null;
 
-            return weather;
+            }
         }
 
         @Override
@@ -206,9 +216,9 @@ public class MainActivity extends AppCompatActivity {
 
             DateFormat df = DateFormat.getTimeInstance();
 
-            String sunriseDate = df.format(new Date(weather.place.getSunrise()));
-            String sunsetDate = df.format(new Date(weather.place.getSunset()));
-            String lastUpdateDate = df.format(new Date(weather.place.getLastUpdate()));
+            String sunriseDate = df.format(new Date(weather.place.getSunrise()*1000));
+            String sunsetDate = df.format(new Date(weather.place.getSunset()*1000));
+            String lastUpdateDate = df.format(new Date(weather.place.getLastUpdate()*1000));
 
             DecimalFormat decimalFormat = new DecimalFormat("#.#");
 
@@ -239,13 +249,12 @@ public class MainActivity extends AppCompatActivity {
         builder.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                if(cityInput.getText().toString().length() > 0) {
+                if(new WeatherHttpClient().getWeatherData(cityInput.getText().toString() + "&units=metric&appid=74121be7bd89c3b14470a7cf02a337d9") != null) {
+                    Log.e("main", "yup");
                     CityPreferences cityPreferences = new CityPreferences(MainActivity.this);
                     cityPreferences.setCity(cityInput.getText().toString());
 
                     String newCity = cityPreferences.getCity();
-
-                    Log.e("MAIN:", newCity);
 
                     renderWeatherData(newCity);
                 }
